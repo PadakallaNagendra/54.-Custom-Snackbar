@@ -7,7 +7,7 @@ import { Observable } from "rxjs";
 })
 export class SipDashboardService {
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private readonly httpClient: HttpClient) { }
 
   getsipdashboard(): Observable<any[]>
   {

@@ -17,6 +17,7 @@ import { BottomSheetMenuComponent } from './components/bottom-sheet-menu/bottom-
 import { ChangeDatesComponent } from './components/change-dates/change-dates.component';
 import { NotificationsComponent } from './components/notifications/notifications.component';
 import { SipDashboardComponent } from './components/sip-dashboard/sip-dashboard.component';
+import { HotelComponent } from './components/hotel/hotel.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SipDashboardComponent } from './components/sip-dashboard/sip-dashboard.
     BottomSheetMenuComponent,
     ChangeDatesComponent,
     NotificationsComponent,
-    SipDashboardComponent
+    SipDashboardComponent,
+    HotelComponent
   ],
   imports: [
     BrowserModule,

@@ -4,12 +4,14 @@ import { BookingComponent } from './components/booking/booking.component';
 import { BookingsListComponent } from './components/bookings-list/bookings-list.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SipDashboardComponent } from './components/sip-dashboard/sip-dashboard.component';
+import { HotelComponent } from './components/hotel/hotel.component';
 
 const routes: Routes = [
   { path: "dashboard", component: DashboardComponent },
   { path: "booking", component: BookingComponent },
   { path: "bookings-list", component: BookingsListComponent },
   {path:"sip_Dashboard",component:SipDashboardComponent},
+  {path:"hotel",component:HotelComponent},
   { path: "", redirectTo: "/dashboard", pathMatch: "full" },
   { path: "**", redirectTo: "/dashboard", pathMatch: "full" }
 ];
